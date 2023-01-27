@@ -6,7 +6,7 @@ export default function DesktopMenu (openMenu){
     return(
         <div className={openMenu === true ? Styles.disabled : Styles.menu}>
                 <ul className={Styles.ul}>
-                    <li className={Styles.li}>Portfolio</li>
+                    <li className={Styles.li}><a href="#portfolioH1">Portfolio</a></li>
                     <li className={Styles.li}>About</li>
                     <li className={Styles.li}>Contact</li>
                 </ul>
