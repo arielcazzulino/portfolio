@@ -1,3 +1,7 @@
+import uruguayMiel from '../../images/Projects/uruguayMiel.png'
+import apicolaIntegral from '../../images/Projects/apicolaIntegral.png'
+import tramaAlSur from '../../images/Projects/tramaAlSur.png'
+
 const portfolio_data = [
     {
         id: 1,
@@ -15,19 +19,22 @@ const portfolio_data = [
         id:3,
         category: ['wordpress', 'ux'],
         tittle: 'Trama Al Sur',
-        description: "Lorem ipsum"
+        description: "Lorem ipsum",
+        img: tramaAlSur,
     },
     {
         id:4,
         category: ['wordpress', 'ux'],
         tittle: 'Apícola integral',
-        description: "Lorem ipsum"
+        description: "Lorem ipsum",
+        img: apicolaIntegral,
     },
     {
         id:5,
         category: ['wordpress', 'ux'],
         tittle: 'Uruguay Miel',
-        description: "Lorem ipsum"
+        description: "Lorem ipsum",
+        img: uruguayMiel,
     },
     {
         id:6,

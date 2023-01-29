@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import projectsJson from '../../Portfolio/portfolioData';
 import { filter } from 'lodash';
 import FilterButtons from '../FilterButtons/FilterButtons'
+import ProjectsCards from '../ProjectsCards/ProjectsCards';
 import Styles from './Projects.module.css'
 
 const Projects = () => {
@@ -25,19 +26,21 @@ const Projects = () => {
     });
 
     return(
-        <>
+        <div className={Styles.mainContainer}>
             <FilterButtons setSelectedCategory={setSelectedCategory} selectedCategory={selectedCategory} />
             <div className={Styles.projectsContainer}>
                 {filteredProjects.map((project) => (
-                    <div key={project.id} className={Styles.projectCard}>
-                        <h3>{project.tittle}</h3>
-                        <p>{project.category}</p>
-                        <p>{project.description}</p>
-                    </div>
+                    <ProjectsCards
+                        id = {project.id} 
+                        tittle = {project.tittle}
+                        image = {project.img}
+                        description = {project.description}
+                    />
                 ))}
             </div>
-        </>
+        </div>
     )
 }
 
 export default Projects
+

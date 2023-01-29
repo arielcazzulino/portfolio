@@ -11,12 +11,12 @@ const FilterButtons = (props) =>{
     
     return(
         <div className={Styles.mainContainer}>
-            <button onClick={() => handleClick('all')} className={selectedCategory === 'all' ? 'selectedFirst' : 'firstButton'}>All</button>
-            <button onClick={() => handleClick('backEnd')} className={selectedCategory === 'backEnd' ? 'selected' : 'midButtons'}>Back End</button>
-            <button onClick={() => handleClick('frontEnd')} className={selectedCategory === 'frontEnd' ? 'selected' : 'midButtons'}>Front End</button>
-            <button onClick={() => handleClick('fullStack')} className={selectedCategory === 'fullStack' ? 'selected' : 'midButtons'}>Full Stack</button>
-            <button onClick={() => handleClick('wordpress')} className={selectedCategory === 'wordpress' ? 'selected' : 'midButtons'}>Wordpress</button>
-            <button onClick={() => handleClick('academic')} className={selectedCategory === 'academic' ? 'selectedLast' : 'lastButton'}>Academic</button>
+            <button onClick={() => handleClick('all')} className={selectedCategory === 'all' ? Styles.selectedButton : Styles.button}>All</button>
+            <button onClick={() => handleClick('backEnd')} className={selectedCategory === 'backEnd' ? Styles.selectedButton : Styles.button}>Back End</button>
+            <button onClick={() => handleClick('frontEnd')} className={selectedCategory === 'frontEnd' ? Styles.selectedButton : Styles.button}>Front End</button>
+            <button onClick={() => handleClick('fullStack')} className={selectedCategory === 'fullStack' ? Styles.selectedButton : Styles.button}>Full Stack</button>
+            <button onClick={() => handleClick('wordpress')} className={selectedCategory === 'wordpress' ? Styles.selectedButton : Styles.button}>Wordpress</button>
+            <button onClick={() => handleClick('academic')} className={selectedCategory === 'academic' ? Styles.selectedButton : Styles.button}>Academic</button>
         </div>
     )
 }

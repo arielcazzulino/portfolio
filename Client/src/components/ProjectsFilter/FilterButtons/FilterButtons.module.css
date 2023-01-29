@@ -1,0 +1,33 @@
+.mainContainer{
+    background-color: var(--main-letters-color);
+    border-color: transparent;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 40vw;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: rgb(236, 201, 0);
+}
+.selectedButton{
+    color: var(--main-second-hover);
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}

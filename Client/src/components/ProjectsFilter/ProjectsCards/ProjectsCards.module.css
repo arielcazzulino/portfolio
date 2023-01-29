@@ -1,0 +1,30 @@
+.projectCard{
+    display: flex;
+    align-items: flex-end;
+    flex-basis: calc(33.33% - 100px);
+    margin: 20px; 
+    flex-wrap: wrap;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+}
+
+.projectCard::hover{
+    cursor: pointer;
+    
+}
+
+.infoContainer{
+    width: 100%;
+    background-color: var(--third-letters-color);
+    padding: 10px 0px 10px 20px;
+    color: var(--main-letters-color);
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+.infoContainerH3{
+    font-size: 20px;
+    background: linear-gradient(to left, yellow, var(--main-first-hover) 50%, var(--main-second-hover));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
