@@ -9,22 +9,45 @@
     background-size: cover;
 }
 
-.projectCard::hover{
+.projectCard:hover{
     cursor: pointer;
-    
+    transition: transform 0.3s ease-out;
+    transform: scale(1.1);
 }
 
 .infoContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     background-color: var(--third-letters-color);
     padding: 10px 0px 10px 20px;
     color: var(--main-letters-color);
-    background-color: rgba(0, 0, 0, 0.932);
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 20%;
+}
+
+.none{
+    display: none;
 }
 
 .infoContainerH3{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 400;
     background: linear-gradient(to left, yellow, var(--main-first-hover) 50%, var(--main-second-hover));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.categorys{
+    display: flex;
+    flex-direction: row;
+}
+
+.categorys p {
+    margin: 10px 10px 0px 0px;
+}
+
+.infoContainerH3 {
+    margin: 0px;
 }

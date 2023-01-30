@@ -31,10 +31,11 @@ const Projects = () => {
             <div className={Styles.projectsContainer}>
                 {filteredProjects.map((project) => (
                     <ProjectsCards
-                        id = {project.id} 
+                        key = {project.id} 
                         tittle = {project.tittle}
                         image = {project.img}
                         description = {project.description}
+                        category = {project.category}
                     />
                 ))}
             </div>
