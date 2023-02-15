@@ -2,17 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 2vw;
 }
 
 .logo{
-    width: 40px;
+    width: 30px;
     margin-right: 15px;
 }
 
 .h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
     letter-spacing: 6px;
     color: var(--main-letters-color);

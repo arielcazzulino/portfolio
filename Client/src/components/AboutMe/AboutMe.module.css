@@ -11,18 +11,14 @@
     padding-left: 4vw;
     padding-right: 4vw;
 }
-
-.rightInteriorDiv{
-    max-width: 45vw;
-}
  
 .sectionsContainer{
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    justify-content: space-around;
 }
 
 .img{
@@ -45,19 +41,4 @@
     background: linear-gradient(to left, var(--main-first-hover), var(--main-first-hover) 50%, var(--main-second-hover));
     bottom: 0;
     left: 0;
-}
-
-.auxiliarDiv h3{
-    color: var(--main-letters-color);
-}
-
-.auxiliarDiv p{
-    color: var(--third-letters-color);
-    margin-left: 40px;
-}
-
-.orangeChar {
-    background: linear-gradient(to left, var(--main-first-hover), var(--main-first-hover) 30%, var(--main-second-hover));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }

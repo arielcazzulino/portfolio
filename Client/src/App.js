@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Hero from './components/Hero/Hero'; 
@@ -7,6 +8,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (  
+  <>
     <div className="App">
       <BrowserRouter>  
         <Nav/>
@@ -15,6 +17,7 @@ function App() {
         <AboutMe/>
       </BrowserRouter> 
     </div>
+  </>
   );
 }
 

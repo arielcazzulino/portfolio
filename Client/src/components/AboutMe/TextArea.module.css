@@ -1,0 +1,17 @@
+.mainContainer{
+    max-width: 50vw;
+}
+.orangeChar {
+    background: linear-gradient(to left, var(--main-first-hover), var(--main-first-hover) 30%, var(--main-second-hover));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainContainer h3{
+    color: var(--main-letters-color)
+}
+
+.mainContainer p {
+    padding-left: 40px;
+    color: var(--third-letters-color)
+}

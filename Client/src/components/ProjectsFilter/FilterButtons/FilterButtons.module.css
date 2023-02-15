@@ -5,7 +5,7 @@
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    width: 40vw;
+    width: 60vw;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
 .button{
     background-color: transparent;
     border-color: transparent;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     transition: color 0.5s;
     cursor: pointer;
@@ -29,5 +29,5 @@
     background-color: transparent;
     border-color: transparent;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }

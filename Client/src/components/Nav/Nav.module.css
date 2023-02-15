@@ -5,8 +5,12 @@
     width: 100%;
     background-color: var(--main-background-color);
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
     min-height: 10vh;
+}
+
+.burguer{
+    z-index: 999;
 }
 
 .disabled {

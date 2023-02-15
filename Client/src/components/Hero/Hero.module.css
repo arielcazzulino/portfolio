@@ -1,5 +1,6 @@
 .principalDiv{
     display: flex;
+    padding: 0vw 2vw 0vw 2vw;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -9,14 +10,14 @@
 
 .div1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 50%;
 }
 
 .div2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     width: 50%;
 }
@@ -39,13 +40,12 @@
     font-size: 30px;
     font-weight: 400;
     color: var(--main-letters-color);
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin: 40px 0px 40px 0px; 
 }
 
 .img{
     border-radius: 100000px;
-    max-height: 500px;
+    max-height: 400px;
 }
 
 .socialIcon {
@@ -56,4 +56,34 @@
 
 .socialIcon:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 1500px){
+    .h1{
+        font-size: 65px;
+    }
+    .devscription{
+        margin: 35px 0px 35px 0px;
+    }
+    .socialIcon {
+        max-height: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1000px){
+    .h1{
+        font-size: 60px;
+    }
+    .devscription{
+        font-size: 25px;
+        margin: 30px 0px 30px 0px;
+    }
+    .socialIcon {
+        max-height: 35px;
+        margin-right: 10px;
+    }
+    .img{
+        max-width: 350px;
+    } 
 }

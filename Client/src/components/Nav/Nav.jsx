@@ -25,7 +25,7 @@ const Nav = () => {
             </div>
 
             <div className={!openMenu ? Styles.disabled : ''}> 
-                <MobileMenu openMenu={openMenu}/>    
+                <MobileMenu openMenu={openMenu} className={!openMenu ? Styles.disabled : ''} />   
             </div>
             
             <div className={Styles.burguer} onClick={handleClick}>
