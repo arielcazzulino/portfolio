@@ -13,9 +13,7 @@ const Nav = () => {
     const handleClick = () =>{
         openMenu === true ? setOpenMenu (false) : setOpenMenu (true)
     }
-    
-    console.log(openMenu)
-    
+        
     return(
         <nav className={Styles.nav}>
             <LogoAndTittle/>
